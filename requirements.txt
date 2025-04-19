@@ -1,0 +1,8 @@
+ipykernel
+matplotlib
+pandas
+numpy
+tqdm
+scikit-learn
+xgboost
+tensorflow
