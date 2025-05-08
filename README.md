@@ -1,6 +1,21 @@
 # **TennisPredict**
 An in-depth data analysis and notebook that allows users to set a tournament or select two tennis players and predict the match winner based on historical data, player statistics, and advanced machine learning models.
 
+## **Project Structure**
+```bash
+TennisPredict/
+├── data/                   # Raw and processed datasets
+├── images/                 # Graphs and visualizations
+├── models/                 # Saved models and checkpoints
+├── utils/                  # Utility functions for processing and evaluation
+├── 0.CleanData.ipynb       # Data cleaning and exploration
+├── 1.CreateDataset.ipynb   # Feature engineering and dataset preparation
+├── 2.TrainModel.ipynb      # Model training and evaluation
+├── 3.Predict.ipynb         # Match outcome predictions
+├── requirements.txt        # Python dependencies
+└── README.md               # Project overview
+```
+
 ## **Dataset**
 All the data can be found in the [data folder](https://github.com/MohammadYehya/TennisPredict/tree/main/data) which is a publicly available historical ATP tennis match dataset from [Jeff Sackmann’s Tennis Data](https://github.com/JeffSackmann/tennis_atp).
 
@@ -32,20 +47,6 @@ A range of visualizations are generated to support analysis and understanding, i
 ![NovakDjokovic_elo_rating.png](/images/NovakDjokovic_elo_rating.png)
 ![RogerFederer_elo_rating.png](/images/RogerFederer_elo_rating.png)
 
-## **Project Structure**
-```bash
-TennisPredict/
-├── data/                   # Raw and processed datasets
-├── images/                 # Graphs and visualizations
-├── models/                 # Saved models and checkpoints
-├── utils/                  # Utility functions for processing and evaluation
-├── 0.CleanData.ipynb       # Data cleaning and exploration
-├── 1.CreateDataset.ipynb   # Feature engineering and dataset preparation
-├── 2.TrainModel.ipynb      # Model training and evaluation
-├── 3.Predict.ipynb         # Match outcome predictions
-├── requirements.txt        # Python dependencies
-└── README.md               # Project overview
-```
 ## **Getting Started**
 1. **Clone the repository**
 ```bash
