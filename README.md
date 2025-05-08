@@ -19,3 +19,16 @@ The following models are implemented:
 - XGBoost + GridSearchCV
 - Sequential Neural Network
 
+## **Visualizations**
+A range of visualizations are generated to support analysis and understanding, including:
+### Feature distributions
+#### All Features
+![outputAllFeatures.png](/images/outputAllFeatures.png)
+#### Post-PCA Features
+![outputPCA_Pariplot.png](/images/outputPCA_Pariplot.png)
+### Player performance comparisons
+![big3.png](/images/big3.png)
+![RafaelNadal_elo_rating.png](/images/RafaelNadal_elo_rating.png)
+![NovakDjokovic_elo_rating.png](/images/NovakDjokovic_elo_rating.png)
+![RogerFederer_elo_rating.png](/images/RogerFederer_elo_rating.png)
+
