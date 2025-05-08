@@ -28,7 +28,7 @@ TennisPredict/
 ```
 
 ## **Machine Learning Models**
-The following models are implemented:
+The following models are implemented and can be found in the [models](/models/) folder:
 - Decision Tree
 - Random Forest
 - Random Forest + GridSearchCV
