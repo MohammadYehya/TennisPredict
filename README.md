@@ -10,3 +10,12 @@ Details about the columns features can be found in the [matches_data_dictionary.
 > [!IMPORTANT]
 > Post-cleaning and data transformation(feature augmentation, data merging, etc), the final dataset is the file [1finalDataset.csv](https://github.com/MohammadYehya/TennisPredict/tree/main/data/1finalDataset.csv) and is of the dimensions **(95376 x 68)**.
 
+## **Machine Learning Models**
+The following models are implemented:
+- Decision Tree
+- Random Forest
+- Random Forest + GridSearchCV
+- XGBoost
+- XGBoost + GridSearchCV
+- Sequential Neural Network
+
