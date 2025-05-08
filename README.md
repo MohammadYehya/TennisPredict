@@ -68,3 +68,7 @@ Launch your preferred IDE and run the notebooks in order:\
 `2.TrainModel.ipynb`\
 `3.Predict.ipynb`
 
+## Credits
+<a href="https://github.com/mohammadyehya/TennisPredict/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mohammadyehya/TennisPredict" />
+</a>
