@@ -46,3 +46,25 @@ TennisPredict/
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project overview
 ```
+## **Getting Started**
+1. **Clone the repository**
+```bash
+git clone https://github.com/MohammadYehya/TennisPredict.git
+cd TennisPredict
+```
+2. **Create a virtual environment** *(optional but recommended)*
+```bash
+python -m venv venv
+source venv/bin/activate     # On Windows: venv\Scripts\activate
+```
+3. **Install the dependencies**
+```bash
+pip install -r requirements.txt
+```
+4. **Run the notebooks**
+Launch your preferred IDE and run the notebooks in order:\
+`0.CleanData.ipynb`\
+`1.CreateDataset.ipynb`\
+`2.TrainModel.ipynb`\
+`3.Predict.ipynb`
+
