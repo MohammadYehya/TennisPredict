@@ -32,3 +32,17 @@ A range of visualizations are generated to support analysis and understanding, i
 ![NovakDjokovic_elo_rating.png](/images/NovakDjokovic_elo_rating.png)
 ![RogerFederer_elo_rating.png](/images/RogerFederer_elo_rating.png)
 
+## **Project Structure**
+```bash
+TennisPredict/
+├── data/                   # Raw and processed datasets
+├── images/                 # Graphs and visualizations
+├── models/                 # Saved models and checkpoints
+├── utils/                  # Utility functions for processing and evaluation
+├── 0.CleanData.ipynb       # Data cleaning and exploration
+├── 1.CreateDataset.ipynb   # Feature engineering and dataset preparation
+├── 2.TrainModel.ipynb      # Model training and evaluation
+├── 3.Predict.ipynb         # Match outcome predictions
+├── requirements.txt        # Python dependencies
+└── README.md               # Project overview
+```
